@@ -172,6 +172,7 @@ fn main() -> eframe::Result {
 /// The main window's options; built for each start attempt (they hold a one-shot hook).
 fn native_options(agent: bool) -> eframe::NativeOptions {
     eframe::NativeOptions {
+        persist_window: !agent,
         viewport: egui::ViewportBuilder::default()
             .with_title("FilmCraft")
             .with_inner_size([1600.0, 980.0])
