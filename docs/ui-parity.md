@@ -1,6 +1,6 @@
 # UI and interaction parity
 
-> **Last reviewed:** 2026-10-10 · **Last updated:** 2026-10-26 · **Change:** trivial (window size and maximized state survive restarts at any interface size; GNOME Wayland caption buttons, storytold/egui#3) · **Target:** Adobe Premiere Pro 2026 (26.5.2, macOS)
+> **Last reviewed:** 2026-10-10 · **Last updated:** 2026-10-26 · **Change:** trivial (window size and maximized state survive restarts at any interface size; caption buttons on native GNOME Wayland windows, `FILMCRAFT_WAYLAND=1`, storytold/egui#3) · **Target:** Adobe Premiere Pro 2026 (26.5.2, macOS)
 
 How FilmCraft looks, feels and responds compared with Premiere: tools, on-screen handles, snapping,
 nudging, modifier keys, shortcuts, drag behaviour, numeric entry, panels, context menus. Keyboard
@@ -35,5 +35,5 @@ open interaction reports (about 40 of the 188 open issues).
 
 | Date | Change | Summary |
 |---|---|---|
-| 2026-10-26 | trivial | Window size and maximized state survive restarts at any interface size; standard caption buttons on GNOME Wayland (storytold/egui#3) |
+| 2026-10-26 | trivial | Window size and maximized state survive restarts at any interface size; standard caption buttons on native GNOME Wayland windows, `FILMCRAFT_WAYLAND=1` (storytold/egui#3) |
 | 2026-10-10 | major | Created: UI areas against Premiere 26.5.2, menu label diff, keyboard parity from keyboard.md, open UI issues itemized |
